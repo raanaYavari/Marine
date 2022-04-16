@@ -5,8 +5,11 @@ buildscript {
         mavenCentral()
         google()  // Google's Maven repository
     }
-
+    dependencies {
+        classpath 'com.github.dcendents:android-maven-plugin:1.0'
+    }
 }
+
 
 
 plugins {
